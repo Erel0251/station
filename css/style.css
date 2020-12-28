@@ -1,22 +1,39 @@
 body {
-  font-family: 'Lobster', 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Lobster', serif;
   background-color: #ecf0f1;
   color: #2c3e50;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 a {
+  color: #2980b9;
   text-decoration: none;
 }
 
-li {
+.navigation {
+  background-color: #3498db;
+  width: 1500px;
+  position: fixed;
+  top: 0px;
+  left: 30px;
+  color: #2c3e50;
+  z-index: 2;
+}
+
+.navigation__list {
   float: left;
-  margin: 5px;
+  margin: 5px 60px 25px 0px;
   list-style-type: none;
 }
+
 
 section {
   position: absolute;
   top: 40px;
+  left: 100px;
 }
 
 div {
