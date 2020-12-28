@@ -3,3 +3,18 @@ body {
   background-color: #ecf0f1;
   color: #2c3e50;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  margin: 5px;
+  list-style-type: none;
+}
+
+section {
+  position: absolute;
+  top: 40px;
+}
