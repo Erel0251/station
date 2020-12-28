@@ -1,7 +1,5 @@
-html {
+body {
   font-family: cursive;
   background-color: #ecf0f1;
-}
-#library {
-  background-color: black;
+  color: #2c3e50;
 }
