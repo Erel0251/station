@@ -18,3 +18,7 @@ section {
   position: absolute;
   top: 40px;
 }
+
+div {
+  margin: 10px;
+}
