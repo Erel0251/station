@@ -31,10 +31,25 @@ summary {
 
 .navigation__list a {
   color: #2c3e50;
+  padding: 5px;
+  border-radius: 15px;
+  width: 130px;
+  height: 20px;
+  display: block;
+  text-align: center;
 }
 
 .navigation__list a:hover {
-  text-decoration: underline;
+  animation-name: gach_chan;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes gach_chan {
+  100% {
+  background-color: #ecf0f1;
+  color: #3498db;
+  }
 }
 
 .navigation {
@@ -48,6 +63,7 @@ summary {
 }
 
 .navigation__list {
+
   float: left;
   margin: 5px 60px 25px 0px;
   list-style-type: none;
